@@ -1,4 +1,5 @@
-import './homepage.css';
+import './Home.css';
+import Button from './Button';
 
 function Home() {
     return (
@@ -12,9 +13,9 @@ function Home() {
             <h2 className="sectionHeading">Your Meditations</h2>
             {/*TODO: create a flex box using div. two buttons per row, spanning half the width of the screen*/}
             <div className="meditationSessions">
-              <button className="button1">Your Daily</button>
-              <button className="button2">Flow</button>
-              <button className="button3">Timer</button>
+              <Button label="Your Daily" className="button1"></Button>
+              <Button label="Flow" className="button2"></Button>
+              <Button label="Timer" className="button3"></Button>
             </div>
           </section>
 
