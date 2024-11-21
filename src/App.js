@@ -1,10 +1,11 @@
-import './App.css';
-import Home from './Home';
+import "./App.css";
+import Home from "./Home";
+import Meditation from "./Meditation";
 
 function App() {
   return (
     <div className="App">
-        <Home></Home>
+      <Meditation></Meditation>
     </div>
   );
 }
