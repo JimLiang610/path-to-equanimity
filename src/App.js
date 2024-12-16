@@ -1,11 +1,11 @@
 import "./App.css";
-import Home from "./Home";
-import Meditation from "./Meditation";
+//import Home from "./Home";
+import Timer from "./Timer";
 
 function App() {
   return (
     <div className="App">
-      <Meditation></Meditation>
+      <Timer></Timer>
     </div>
   );
 }
