@@ -1,11 +1,12 @@
 import "./App.css";
 //import Home from "./Home";
-import Timer from "./Timer";
+//import Timer from "./Timer";
+import Stats from "./Stats";
 
 function App() {
   return (
     <div className="App">
-      <Timer></Timer>
+      <Stats></Stats>
     </div>
   );
 }
